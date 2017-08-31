@@ -163,6 +163,10 @@ nav a {
   margin-bottom: 40px;
 }
 
+.resume-link {
+  font-size: 36px;
+}
+
 #resume .resume-display {
   display: flex;
 }
