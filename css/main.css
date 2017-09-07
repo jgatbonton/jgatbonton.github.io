@@ -146,27 +146,10 @@ nav a {
   text-align: center;
 }
 
-
-
-.resume-margin {
-  margin-left: 20px;
-}
-#resume .right {
-  float: right;
-  font-style: italic;
-  margin-right: 25%;
-}
-
-.resume-education {
-  margin-bottom: 30px;
-}
-
-.resume-coursework {
-  margin-bottom: 40px;
-}
-
 .resume-link {
-  font-size: 36px;
+  font-size: 35px;
+  color: #263238;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 #resume .skills-column {
@@ -182,7 +165,7 @@ nav a {
 
 #resume .resume-NW {
   background-color: #C4D7DA;
-  font-size: 60px;
+  font-size: 55px;
   font-family: 'Droid Sans', sans-serif;
   width: 30%;
   float: left;
@@ -223,7 +206,7 @@ nav a {
   height: 300px;
 }
 #resume .skills-size {
-  font-size: 18px;
+  font-size: 17px;
 }
 #resume .skills-1 {
   width: 35%;
