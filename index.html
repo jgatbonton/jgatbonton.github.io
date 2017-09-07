@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="sfpic col-md-5 col-md-offset-2">
-          <img class="img-circle img-responsive" src="images/sfmoma.jpeg" width="500" >
+          <img class="img-rounded img-responsive sfborder" src="images/sfmoma.jpeg" width="500" >
         </div>
       </div>
   </section>
@@ -82,70 +82,63 @@
 
 <!-- RESUME -->
   <section id="resume">
-    <header class="resume-title">
-      <h1>R&eacute;sum&eacute;</h1>
-    </header>
-
-    <div class="resume-education resume-margin">
-      <h3>Education</h3>
-      <h4>
-        <u>University of California, San Diego</u>
-        <span class="right">June 2018</span>
-      </h4>
-      <h4>
-        Cognitive Science w/ Specialization in Human Computer Interaction B.S.
-      </h4>
-      <h4>
-        Minor: Computer Science
-      </h4>
+    <!-- Row 1 -->
+    <div class="resume-1">
+      <div class="resume-NW">
+        <p>R&eacute;sum&eacute;</p>
+      </div>
+      <div class="resume-NE resume-display">
+        <div class="edu-column">
+          <p class="resume-header">Education</p>
+          <p class="resume-college">University of California, San Diego</p>
+          <p>Cognitive Science w/ Specialization in Human Computer Interaction B.S.</p>
+          <p>Minor: Computer Science</p>
+          <p class="resume-date"><i>Expected Graduation Date: June 2018</i></p>
+        </div>
+        <div class="edu-logo-column">
+          <img class="img-responsive" align="right" src="images/ucsdlogo.png" width="150" height="150">
+        </div>
+      </div>
     </div>
-
-    <div class="resume-coursework resume-margin">
-      <h4>Relevant Coursework</h4>
-      <div class="resume-classes">
-        <div class="skills-list">
+    <!-- Row 2 -->
+    <div class="resume-2">
+      <div class="resume-SW">
+        <p class="resume-header">Technical Skills/Concepts</p>
+        <div class="resume-display skills-size">
+          <div class="skills-1">
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>Sketch</li>
+              <li>Android Studio</li>
+            </ul>
+          </div>
+          <div class="skills-2">
+            <ul>
+              <li>Front-End Development</li>
+              <li>UX/UI Design</li>
+              <li>Data Structures</li>
+              <li>Heroku</li>
+              <li>Agile Development</li>
+              <li>git</li>
+              <li>Unix</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="resume-SE">
+        <p class="resume-header">Relevant Coursework</p>
+        <div class="skills-size">
           <ul>
             <li>Human Computer Interaction Design</li>
             <li>Software Engineering</li>
             <li>Human Computer Interaction Programming Studio</li>
             <li>Advanced Data Structures</li>
+            <li>Usability &amp; Info Architecture</li>
           </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="resume-skills resume-margin">
-      <h3>Skills</h3>
-      <div class="resume-display">
-        <div class="skills-column">
-          <h5>Languages</h5>
-          <div class="skills-list">
-            <ul>
-              <li>JavaScript</li>
-              <li>HTML/CSS</li>
-              <li>C++</li>
-              <li>Java</li>
-              <li>Python</li>
-            </ul>
-          </div>
-        </div>
-        <div class="skills-column">
-          <h5>Tools/Concepts</h5>
-            <div class="skills-list">
-              <ul>
-                <li>Front End Development</li>
-                <li>UX/UI Design</li>
-                <li>Git + Git Flow</li>
-                <li>Heroku</li>
-                <li>UNIX</li>
-                <li>jQuery</li>
-                <li>Android Studio</li>
-                <li>Sketch</li>
-                <li>Data Structures</li>
-                <li>Agile Development</li>
-                <li>Test-Driven Development</li>
-              </ul>
-            </div>
         </div>
       </div>
     </div>
@@ -153,11 +146,13 @@
     <!-- WORK ON THIS -->
     <!-- view resume -->
       <!--<p>View Full Resume</p>-->
-      <a href="Resume.pdf" target="_blank">
-        <div class="resume-link">
-        <p>View Complete Resume</p>
-      </div>
-      </a>
+  </section>
+  <section id="resume-pdf-link">
+    <a href="Resume.pdf" target="_blank">
+      <div class="resume-link">
+      <p>View Complete Resume</p>
+    </div>
+    </a>
   </section>
 
 <!-- PROJECTS -->
@@ -263,7 +258,7 @@
             </div>
 
             <div class="project-header">
-              <p>On Track</p>
+              <p>Flow by Halo!</p>
             </div>
 
             <div class="project-paragraph">

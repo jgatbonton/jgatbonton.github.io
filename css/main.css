@@ -28,7 +28,6 @@ nav .navtitle {
   text-align: center;
   line-height: 80px;
   text-transform: uppercase;
-  font-family: 'Droid Sans', sans-serif;
 
 }
 
@@ -36,6 +35,7 @@ nav .navtitle a {
   font-size: 40px;
   letter-spacing: 0.2em;
   color: #263238;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 nav .navmenu {
@@ -83,7 +83,7 @@ nav a {
 /* title page */
 #titlepage {
   padding-top: 250px; /* used to be 85px */
-  height: 625px;
+  height: 650px; /* think about percent 90% */
   background-color: #ffffff;
   text-align: center;
   box-shadow: 4px 4px 4px rgba(120, 120, 120, 0.3);
@@ -125,26 +125,28 @@ nav a {
   text-align: left;
 }
 
+.sfborder {
+  border: 1px solid #263238;
+}
+
 
 /* resume */
+/* a lot of things to delete!!!! not including #resume */
 #resume {
-  background-color: #ffffff;
   padding-top: 75px;
   padding-bottom: 40px;
   font-family: 'Noto Sans', sans-serif;
+  box-sizing: border-box;
 }
 
-.resume-title {
-  margin-bottom: 30px;
-
-  border-bottom: 3px solid #263238;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(38,50,56);
-  margin-left: 10px;
-  margin-right: 20%;
-  font-family: 'Droid Sans', sans-serif;
+#resume-pdf-link{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  text-align: center;
 }
+
+
 
 .resume-margin {
   margin-left: 20px;
@@ -167,9 +169,6 @@ nav a {
   font-size: 36px;
 }
 
-#resume .resume-display {
-  display: flex;
-}
 #resume .skills-column {
   width: 25%;
 }
@@ -177,12 +176,76 @@ nav a {
   font-size: 18px;
 }
 
+#resume .resume-display {
+  display: flex;
+}
+
+#resume .resume-NW {
+  background-color: #C4D7DA;
+  font-size: 60px;
+  font-family: 'Droid Sans', sans-serif;
+  width: 30%;
+  float: left;
+  padding-top: 100px;
+  height: 300px;
+  text-align: center;
+}
+#resume .resume-NE{
+  background-color: #E0E2F9;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  width: 70%;
+  float: left;
+  padding: 20px;
+  height: 300px;
+}
+#resume .edu-column {
+  width: 65%;
+}
+#resume .edu-logo-column {
+  width: 25%;
+}
+#resume .resume-college{
+  font-size: 25px;
+}
+#resume .resume-date{
+  font-size: 12px;
+}
+#resume .resume-header{
+  font-size: 35px;
+}
+#resume .resume-SW{
+  background-color: #FDCBCA;
+  font-family: 'Droid Sans', sans-serif;
+  padding: 20px;
+  width: 55%;
+  float: left;
+  height: 300px;
+}
+#resume .skills-size {
+  font-size: 18px;
+}
+#resume .skills-1 {
+  width: 35%;
+}
+#resume .skills-2 {
+  width: 40%;
+}
+#resume .resume-SE {
+  background-color: #B5C1CA;
+  font-family: 'Droid Sans', sans-serif;
+  padding: 20px;
+  width: 45%;
+  float: left;
+  height: 300px;
+}
+
 
 /* Projects */
 #projects {
   padding-top: 65px;
   padding-bottom: 40px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 .projects-title {
