@@ -170,7 +170,7 @@ nav a {
   width: 30%;
   float: left;
   padding-top: 100px;
-  height: 300px;
+  min-height: 300px;
   text-align: center;
 }
 #resume .resume-NE{
@@ -180,7 +180,7 @@ nav a {
   width: 70%;
   float: left;
   padding: 20px;
-  height: 300px;
+  min-height: 300px;
 }
 #resume .edu-column {
   width: 65%;
@@ -203,7 +203,7 @@ nav a {
   padding: 20px;
   width: 55%;
   float: left;
-  height: 300px;
+  min-height: 300px;
 }
 #resume .skills-size {
   font-size: 17px;
@@ -220,7 +220,7 @@ nav a {
   padding: 20px;
   width: 45%;
   float: left;
-  height: 300px;
+  min-height: 300px;
 }
 
 
