@@ -1,0 +1,34 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #263238;
+    text-align: center;
+}
+
+#logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.contact-buttons {
+    text-align: center;
+    font-size: 1.5em;
+    color: #263238;
+    overflow: hidden;
+  
+    a {
+      text-decoration: none;
+    }
+  }
+  
+  #mail {
+    color: #263238;
+  }
+  #instagram {
+    color: #263238;
+  }
+  #linkedin {
+    color: #263238;
+  }
+  #github {
+    color: #263238;
+  }
