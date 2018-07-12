@@ -180,7 +180,7 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
     top: 3em;
     left: 0;
-    background: rgb(33,33,33, 0.99);
+    background: rgb(33,33,33);
     float: none;
     display: none;
   }
