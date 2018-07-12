@@ -431,16 +431,16 @@ section.content {
   }
 
   #resume .ucsd-img {
-    height: 5em;
-    width: 5em;
+    height: 4em;
+    width: 4em;
   }
   #resume .laptop-img {
-    height: 5em;
-    width: 8em;
+    height: 4em;
+    width: 6.5em;
   }
   #resume .book-img {
-    height: 5em;
-    width: 3.5em;
+    height: 4em;
+    width: 3em;
   }
   #resume .responsive-col {
     padding-top: 2.5em;
@@ -529,5 +529,8 @@ section.content {
   @media screen and (max-width: 639px) {
     .copyright {
       margin-top: 1.5em;
+    }
+    .contact-buttons {
+      font-size: 3em;
     }
   }
