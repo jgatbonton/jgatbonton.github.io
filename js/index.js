@@ -35,3 +35,25 @@ $('a[href*="#"]')
     }
   }
 });
+
+// PRE LOADER
+$(window).load(function(){
+  $('.preloader').fadeOut(1300); // set duration in brackets    
+});
+
+// NAVBAR SCROLL ANIMATION
+$(window).on('scroll', function() {
+  if($(window).scrollTop()) {
+    $('nav').addClass('black');
+  }
+  else {
+    $('nav').removeClass('black');
+  }
+});
+
+// RESPONSIVE MENU
+$(document).ready(function() {
+  $(".menu p").click(function() {
+    $("nav ul").toggleClass("active");
+  });
+});

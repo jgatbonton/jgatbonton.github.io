@@ -1,77 +1,200 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <Title>Judd&middot;X</Title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <Title>Judd&middot;X</Title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=no">
 
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/redesign.css" type="text/css" rel="stylesheet">
 
-        <link href="css/redesign.css" type="text/css" rel="stylesheet">
-    </head>
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
 
-    <body>
-    <!--NAVBAR-->
-    <!-- color for navbar #484848 -->
-    <!--HOME-->
-        <section id="particles-js" class="container-fluid"></section>
-        <div class="container">
-            <div class="row">
-                <div class="homepage">
-                    <img class="img-responsive center-block" src="images/jglogo.png" alt="myLogo" id="logo">
-                        <h1>Hello! I'm Judd.</h1>
-                        <h2>Developer + UX Designer</h2>
-                </div>
-            </div>
-        </div>
-        
+<body>
+  <!--PRE LOADER-->
+  <section class="preloader">
+    <div class="spinner">
+      <span class="spinner-rotate"></span>
+    </div>
+  </section>
 
-    <!--RESUME-->
-    <!--PROJECTS -->
-        <!-- js -->
-    <!--REDESIGN NOTE-->
-    <div class="container">
-        <div class="row" id="summary">
-            <div class="col-md-5">
-                <p>Currently, I am redesigning my website. View some of my projects <a href="oldindex.html" target="_blank">here.</a></p>
-                <p>Feel free to check out my <a href="Resume.pdf" target="_blank">resume</a> and contact me down below:</p>
-                </div>
+
+  <!--NAVBAR-->
+  <div class="responsive-bar">
+    <div class="logo">
+      <img src="images/jglogo.png">
+      <!-- <p>judd&middot;x</p> -->
+    </div>
+    <div class="menu">
+      <p>menu</p>
+    </div>
+  </div>
+  <nav>
+    <div class="logo">
+      <img src="images/jglogo.png">
+      <p>judd&middot;x</p>
+    </div>
+    <ul>
+      <!-- <li><a href="index.html" class="active">home</a></li> -->
+      <li><a href="#about">about</a></li>
+      <li><a href="#resume">resume</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+      <li><a href="https://medium.com/@judd.gatbonton">blog</a></li>
+    </ul>
+  </nav>
+
+  <!--HOME-->
+  <section id="particles-js" class="container-fluid"></section>
+  
+  <div class="home-title container">
+    <div class="row">
+        <div class="homepage">
+            <img class="img-responsive center-block" src="images/jglogo.png" alt="myLogo" id="logo">
+                <h1>hello! i'm Judd.</h1>
+                <h2>developer + ui/ux designer</h2>
         </div>
     </div>
-    
-    <!--CONTACT-->
-    <!--maybe put a form??-->
-        <section class="contact-buttons">
-                <a href="mailto:judd.gatbonton@gmail.com"><i id="mail" class="far fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/juddgatbonton" target="_blank"><i id="linkedin" class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/jgatbonton" target="_blank"><i id="github" class="fab fa-github"></i></a>
-                <a href="https://medium.com/@judd.gatbonton" target="_blank"><i id="linkedin" class="fab fa-medium"></i></a>
-                <a href="https://www.instagram.com/juddgatbonton/" target="_blank"><i id="instagram" class="fab fa-instagram"></i></a>
-        </section>
+  </div>
 
-    <!--FOOTER-->
-        <footer class="copyright">
-            <p>&copy;Judd Gatbonton 2018</p>
-        </footer>
+  <!-- ABOUT --> 
+  <section id="about" class="content">
+    <div class="container">
+      <h1><u>about me</u></h1>
+      <div class="row">
+        <div class="col-12 col-md-6 col-sm-12 about-paragraph">
+          <p>My name is <b><u>Judd Gatbonton</u></b>. I am a recent graduate from UC San Diego with a strong passion for Human Computer Interaction and Computer Science.</p>
+          <p>Through my studies, I gained knowledge in both design and development. I have a great desire to always create what's next and put the user experience first. I believe in the importantance of thoughtfulness for the users I am designing for.</p>
+          <p>I love building software applications that are <b><u>both aesthetically pleasing and easy to use</u></b>. My interests lie in the user experience, interaction design and front end development.</p>
+          <p>In my spare time, I enjoy powerlifting, exploring and Star Wars.</p>
+        </div>
+        <div class="col-12 col-md-6 col-sm-12 about-col-centered">
+          <img src="images/hi.jpg" class="about-img" alt="About Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+    <hr>
 
-        <!-- might use this instead to decrease load time and reliance on network-->
-        <!-- <script type="text/javascript" src="particles.js"></script>
-        <script type="text/javascript" src="app.js"></script> -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- RESUME --> 
+  <section id="resume" class="content">
+    <div class="container">
+      <h1><u>resume</u></h1>
+      <div class="row">
+        <img src="images/chart.png" class="img-responsive mx-auto chart-img" alt="Chart" align="middle">
+      </div>
 
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script>
-            particlesJS.load('particles-js', 'particles.json', function() {
-            console.log('callback - particles.js config loaded');
-             });
-        </script>
+      <div class="row resume-row">
+        <div class="col-md-4 text-center">
+          <img src="images/ucsdlogo.png" class="img-responsive ucsd-img" alt="UCSD">
+          <h2>education</h2>
+          <ul>
+              <li>University of California, San Diego</li>
+              <li>Graduated June 2018</li>
+              <li>B.S. Cognitive Science w/ <u>Specialization Human Computer Interaction</u></li>
+              <li>Minor: Computer Science</li>
+            </ul>
+        </div>
 
-        <script src="js/index.js"></script>
-    </body>
+        <div class="col-md-4 text-center responsive-col">
+          <img src="images/laptop.png" class="img-responsive laptop-img" alt="Laptop">
+          <h2>technical skills</h2>
+          <div class="row">
+            <div class="col-6 skill-colL">
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>React.js</li>
+                <li>git</li>
+                <li>jQuery</li>
+                <li>Heroku</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <div class="col-6 skill-colR">
+              <ul>
+                <li>Sketch</li>
+                <li>InVision</li>
+                <li>Wireframing</li>
+                <li>Rapid Prototyping</li>
+                <li>Design Thinking</li>
+                <li>Usability Testing</li>
+                <li>Storyboarding</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center responsive-col">
+          <img src="images/book.png" class="img-responsive book-img" alt="Book">
+          <h2>relevant courses</h2>
+          <ul>
+              <li>Client-Side Web Programming</li>
+              <li>Human Computer Interaction Design</li>
+              <li>Advanced Software Engineering</li>
+              <li>Human Computer Interaction Programming</li>
+              <li>Practicum in Professional Web Design</li>
+              <li>Usability &amp; Information Architecture</li>
+              <li>Advanced Data Structures</li>
+            </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <a href="Resume.pdf" class="resume-link" target="_blank">
+          <h2>view full resume</h2>
+        </a>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!-- PROJECTS --> 
+  <section id="projects" class="content">
+    <div class="container">
+      <h1><u>projects</u></h1>
+      <div class="row" id="summary">
+        <div class="col-md-5">
+            <p>Currently, I am redesigning the project section. However, you can view some of my projects <a href="oldindex.html" target="_blank">here.</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CONTACT-->
+  <section id="contact" class="content">
+    <div class="container">
+      <h1><u>contact</u></h1>
+      <p>Feel free to contact me down below :)</p>
+      <div class="contact-buttons">
+            <a href="mailto:judd.gatbonton@gmail.com"><i id="mail" class="far fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/juddgatbonton" target="_blank"><i id="linkedin" class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/jgatbonton" target="_blank"><i id="github" class="fab fa-github"></i></a>
+            <a href="https://twitter.com/juddgatbonton" target="_blank"><i id="twitter" class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/juddgatbonton/" target="_blank"><i id="instagram" class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="copyright">
+      <p>&copy;Judd Gatbonton 2018</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- particlejs -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');
+        });
+  </script>
+
+  <script src="js/index.js"></script>
+</body>
 </html>
