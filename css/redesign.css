@@ -199,7 +199,7 @@ nav ul li a.active, nav ul li a:hover {
     width: 100%;
     text-align: center;
     line-height: 2.5em !important;
-    border-top: .2px solid rgb(236,239,241, 0.8);
+    border-top: .2px solid rgb(236,239,241, 0.8); /* FIX THIS */
   }
 }
 
@@ -344,6 +344,7 @@ section.content {
 -----------------------------------------*/
 #resume h1 {
   font-family: 'Roboto', sans-serif;
+  font-size: 2.6em;
   padding-bottom: 0.5em;
 }
 #resume h2 {
@@ -452,6 +453,13 @@ section.content {
 /*---------------------------------------
     PROJECTS
 -----------------------------------------*/
+#projects h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6em;
+}
+#projects p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 @media screen and (max-width: 639px) {
   #projects h1 {
     font-size: 2.3em;
@@ -460,6 +468,13 @@ section.content {
 /*---------------------------------------
     CONTACT
 -----------------------------------------*/
+#contact h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.6em;
+}
+#contact p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 @media screen and (max-width: 639px) {
   #contact h1 {
     font-size: 2.3em;
