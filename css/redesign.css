@@ -360,16 +360,16 @@ section.content {
   width: 42em;
 }
 #resume .ucsd-img {
-  height: 8em;
-  width: 8em;
+  height: 7em;
+  width: 7em;
 }
 #resume .laptop-img {
-  height: 8em;
-  width: 12em;
+  height: 7em;
+  width: 10.5em;
 }
 #resume .book-img {
-  height: 8em;
-  width: 6.2em;
+  height: 7em;
+  width: 5.8em;
 }
 #resume .resume-row ul {
   /* text-align: left; */
@@ -447,6 +447,7 @@ section.content {
   }
   #resume h2 {
     padding-top: 0em;
+    font-size: 1.8em;
   }
 }
 
