@@ -403,7 +403,7 @@ section.content {
     width: 32em;
   }
   #resume .resume-row {
-    padding-top: 3em;
+    padding-top: 1em;
   }
   #resume .ucsd-img {
     height: 6em;
@@ -486,7 +486,7 @@ section.content {
     CONTACT & FOOTER
 -----------------------------------------*/
 .copyright {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin-top: 3em;
   text-align: center;
   color:black; /* change color */
