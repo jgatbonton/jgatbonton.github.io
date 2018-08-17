@@ -68,7 +68,6 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   font-family: 'Roboto', sans-serif;
-
 }
 
 nav.black {
@@ -129,6 +128,7 @@ nav.black ul li a {
 nav ul li a.active, nav ul li a:hover {
   color: #ECEFF1;
   background-color: #00BCD4;
+  text-decoration: none;
 }
 
 .responsive-bar {
@@ -454,18 +454,197 @@ section.content {
 /*---------------------------------------
     PROJECTS
 -----------------------------------------*/
+#projects .project-row-padding {
+  padding-bottom: 8em;
+}
 #projects h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.6em;
+  padding-bottom: 1.5em;
   /* might need padding in bottom later; same goes with CONTACT */
 }
 #projects p {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+#projects .project-img-laptop {
+  height: 23em;
+  width: 40em;
+  align-content: center;
+}
+#projects .project-img-phone {
+  height: 20em;
+  width: 26em;
+  align-content: center;
+}
+#projects .project-kind-right {
+  border-bottom: 1px solid #000;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  /* text-align: right; */
+}
+#projects .project-kind-left {
+  border-bottom: 1px solid #000;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  text-align: right;
+}
+
+#projects span {
+  background-color: #00E5FF;
+  padding-right: 2em;
+  padding-left: 1em;
+  padding-top: .7em;
+  padding-bottom: 1em;
+  color: white;
+  font-size: .8em;
+}
+
+#projects .project-titles {
+ font-family: 'Roboto', sans-serif;
+ font-size: 4em;
+ line-height: 1em;
+}
+
+#projects .view-link {
+  text-decoration: none;
+}
+#projects .view-project-btn, #projects .github-btn, #projects .process-btn {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  border: 0.8px solid #212121;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: .6em;
+  padding-right: .6em;
+  display: inline-block;
+}
+
+#projects .view-project-btn:hover, #projects .view-project-btn:active {
+  text-decoration: none;
+  transition: .3s;
+  color: #ffffff;
+  background-color: #00BCD4;
+  border: 0;
+}
+#projects .github-btn:hover, #projects .github-btn:active {
+  text-decoration: none;
+  transition: .3s;
+  color: #ffffff;
+  background-color: #c9510c;
+  border: 0;
+}
+#projects .process-btn:hover, #projects .process-btn:active {
+  text-decoration: none;
+  transition: .3s;
+  color: #ffffff;
+  background-color: #00ab6c;
+  border: 0;
+}
+
+@media screen and (max-width: 1199px)  {
+  #projects .project-img-laptop {
+    height: 20em;
+    width: 35em;
+  }
+  #projects .project-img-phone {
+    height: 20em;
+    width: 26em;
+  }
+}
+@media screen and (max-width: 991px) {
+  #projects h1 {
+    padding-bottom: 0.8em;
+  }
+  #projects .project-img-laptop {
+    height: 15em;
+    width: 25em;
+  }
+  #projects .project-img-phone {
+    height: 16em;
+    width: 20em;
+  }
+
+  #projects span {
+    padding-right: 2em;
+    padding-left: 1em;
+    padding-top: .7em;
+    padding-bottom: 1em;
+    font-size: .5em;
+  }
+  #projects .project-titles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+   }
+}
+
+@media (max-width: 768px) {
+  #projects .project-row-padding {
+    padding-bottom: 4em;
+  }
+  #projects .project-img-laptop {
+    height: 17em;
+    width: 27em;
+    padding-bottom: 0.8em;
+  }
+  #projects .project-img-phone {
+    height: 16em;
+    width: 20em;
+    padding-top: 0.8em;
+  }
+  #projects .portfolio-space {
+    padding-top: 0.8em;
+  }
+
+  #projects span {
+    padding-right: 2em;
+    padding-left: 1em;
+    padding-top: .7em;
+    padding-bottom: 1em;
+    font-size: .5em;
+  }
+  #projects .project-titles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+   }
+}
+
 @media screen and (max-width: 639px) {
+  #projects .project-row-padding {
+    padding-bottom: 3.5em;
+  }
   #projects h1 {
     font-size: 2.3em;
+    padding-bottom: 0.8em;
   }
+  #projects .project-img-laptop {
+    height: 11.5em;
+    width: 18.7em;
+    padding-bottom: 1em;
+  }
+  /* #projects .explore-space {
+    padding-top: 2.5em;
+  } */
+  #projects .project-img-phone {
+    height: 13em;
+    width: 16em;
+  }
+
+  #projects span {
+    padding-right: 2em;
+    padding-left: 1em;
+    padding-top: .7em;
+    padding-bottom: 1em;
+    font-size: .5em;
+  }
+  #projects .project-titles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1em;
+    line-height: 1em;
+   }
 }
 /*---------------------------------------
     CONTACT
@@ -497,10 +676,11 @@ section.content {
     overflow: hidden;
     position: relative;
   
-    a {
-      text-decoration: none;
-    }
-  }
+
+}
+.contact-buttons a {
+  text-decoration: none;
+}
   
   #mail, #instagram, #linkedin, #github, #twitter {
     color: #212121;
