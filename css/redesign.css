@@ -277,15 +277,17 @@ a.visit {
     CONTENT SPACING
 -----------------------------------------*/
 section.content {
-  padding-top: 6em; /* important to note */
+  padding-top: 8em; /* important to note */
   /* padding-right: 3em;
   padding-left: 3em; */
+  padding-bottom: 4.5em;
   position: relative;
   color: #212121;
 }
 @media screen and (max-width: 639px) {
  section.content {
-  padding-top: 3em;
+  padding-top: 5.5em;
+  padding-bottom: 3em;
   /* padding-right: 1em;
   padding-left: 1em; */
   }
@@ -455,7 +457,7 @@ section.content {
     PROJECTS
 -----------------------------------------*/
 #projects .project-row-padding {
-  padding-bottom: 8em;
+  padding-bottom: 11em;
 }
 #projects h1 {
   font-family: 'Roboto', sans-serif;
@@ -504,9 +506,11 @@ section.content {
  font-family: 'Roboto', sans-serif;
  font-size: 4em;
  line-height: 1em;
- color: #212121;
 }
-
+#projects .view-link-project-title {
+  text-decoration: none;
+  color: #212121;
+}
 
 #projects .view-link {
   text-decoration: none;
@@ -584,7 +588,7 @@ section.content {
 
 @media (max-width: 768px) {
   #projects .project-row-padding {
-    padding-bottom: 4em;
+    padding-bottom: 7.5em;
   }
   #projects .project-img-laptop {
     height: 17em;
@@ -616,7 +620,7 @@ section.content {
 
 @media screen and (max-width: 639px) {
   #projects .project-row-padding {
-    padding-bottom: 3.5em;
+    padding-bottom: 6.5em;
   }
   #projects h1 {
     font-size: 2.3em;
@@ -668,7 +672,7 @@ section.content {
 -----------------------------------------*/
 .copyright {
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 3em;
+  margin-top: 1em;
   text-align: center;
   color:black; /* change color */
 }
@@ -677,8 +681,7 @@ section.content {
     font-size: 3.5em;
     overflow: hidden;
     position: relative;
-  
-
+    padding-top: 0.5em;
 }
 .contact-buttons a {
   text-decoration: none;
@@ -711,7 +714,7 @@ section.content {
   }
   @media screen and (max-width: 639px) {
     .copyright {
-      margin-top: 1.5em;
+      margin-top: 0.5em;
     }
     .contact-buttons {
       font-size: 3em;
