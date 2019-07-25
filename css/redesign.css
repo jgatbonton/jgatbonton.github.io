@@ -504,7 +504,9 @@ section.content {
  font-family: 'Roboto', sans-serif;
  font-size: 4em;
  line-height: 1em;
+ color: #212121;
 }
+
 
 #projects .view-link {
   text-decoration: none;
