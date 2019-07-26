@@ -514,8 +514,21 @@ section.content {
 
 #projects .view-link {
   text-decoration: none;
+  margin-right: 0.4em;
 }
-#projects .view-project-btn, #projects .github-btn, #projects .process-btn {
+#projects .process-btn {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border: 0.8px solid #00E5FF;
+  background-color: #00E5FF;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: .6em;
+  padding-right: .6em;
+  display: inline-block;
+}
+#projects .view-project-btn, #projects .github-btn{
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: #212121;
@@ -545,8 +558,8 @@ section.content {
   text-decoration: none;
   transition: .3s;
   color: #ffffff;
-  background-color: #00ab6c;
-  border: 0.8px solid #00ab6c;
+  background-color: #00BCD4;
+  border: 0.8px solid #00BCD4;
 }
 
 @media screen and (max-width: 1199px)  {
@@ -584,6 +597,9 @@ section.content {
     font-size: 3em;
     line-height: 1em;
    }
+   #projects .view-link {
+    margin-right: 0.1em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -616,6 +632,9 @@ section.content {
     font-size: 3em;
     line-height: 1em;
    }
+  #projects .view-link {
+  margin-right: 0.4em;
+  }
 }
 
 @media screen and (max-width: 639px) {
