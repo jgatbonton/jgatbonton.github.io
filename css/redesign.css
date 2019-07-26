@@ -520,8 +520,8 @@ section.content {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: white;
-  border: 0.8px solid #00E5FF;
-  background-color: #00E5FF;
+  border: 0.8px solid #212121;
+  background-color: #212121;
   padding-top: .4em;
   padding-bottom: .4em;
   padding-left: .6em;
@@ -544,8 +544,8 @@ section.content {
   text-decoration: none;
   transition: .3s;
   color: #ffffff;
-  background-color: #00BCD4;
-  border: 0.8px solid #00BCD4; /* change this line of code for the 3 buttons */
+  background-color: #535353;
+  border: 0.8px solid #535353; /* change this line of code for the 3 buttons */
 }
 #projects .github-btn:hover, #projects .github-btn:active {
   text-decoration: none;
@@ -558,8 +558,8 @@ section.content {
   text-decoration: none;
   transition: .3s;
   color: #ffffff;
-  background-color: #00BCD4;
-  border: 0.8px solid #00BCD4;
+  background-color: #535353;
+  border: 0.8px solid #535353;
 }
 
 @media screen and (max-width: 1199px)  {
